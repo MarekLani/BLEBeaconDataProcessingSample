@@ -5,5 +5,5 @@ BLE Beacon -> Mobile/IoT Device with receiving application -> Azure Event Hub ->
 
 In this repository we are publishing following portions of this solution:
 
-- UWP application, which communicates with BLE Beacons and sends data to Azure Event Hub. 
+- UWP application, which communicates with BLE Beacons and sends data to Azure Event Hub. This application contains also implementation of Event Hub SaS Key generator.
 - Azure Function triggered by Event Hub message which processes data send by devices
